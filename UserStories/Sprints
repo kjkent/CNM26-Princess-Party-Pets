@@ -1,0 +1,65 @@
+Minimum Viavle Product Requirements (MVP)
+
+1. Product (cat) images come from an API (your choice of api there are loads)
+
+2. Display page of products (cats) with images for each from api ^ (product landing page)
+
+3. Ability to add each product (cat) to the basket (https://www.npmjs.com/package/faker)
+
+4. Calculate total price of the items (pets) in the basket
+
+5. Basket needs to be a side panel or a modal that is displayed when you press the basket button
+
+User stories
+
+1. As a parent I want to find a party theme and a cat to match for my child's chosen theme. 
+
+2. As a user I want to choose from a cat/party that will fit my price range to 
+ensure that I can afford a party for my child.
+
+3. As a user I want to be able to order my selected party level and accessories
+in one easy checkout to save time. 
+
+Sprint one
+===========================================================================
+
+1. Organisation (Trello, GitHub, wireframes, user stories, design system etc.)
+
+Sprint Two
+===========================================================================
+
+User Story One 'As a parent I want to find a party theme and a cat to match for my child's chosen theme.'
+
+1. Create Landing page
+
+2. Create Card Components
+
+3. Connent API to cat pics
+
+4. Create different text for cards
+
+5. Create general party description page
+
+Sprint Three
+===========================================================================
+
+User Story Two 'As a user I want to choose from a cat/party that will fit my price range to 
+                ensure that I can afford a party for my child.'
+
+1. Add to cards different party/price levels 
+
+2. Create accessories page and accessory items/prices. 
+
+3. Create basket component (array) and connect
+
+Sprint Four
+===========================================================================
+
+User Story Three 'As a user I want to be able to order my selected party level and accessories
+                  in one easy checkout to save time. '
+
+1. Create checkout page and thankyou modal.
+
+2. Connect the basket to the checkout page.
+
+3. Test Test Test!
