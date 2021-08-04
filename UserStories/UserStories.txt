@@ -1,0 +1,17 @@
+
+As a <user role>, I want this <action> so that I can get this <value>. 
+
+Epic
+
+As a busy parent, I want to be able to quickly and easliy arrange party activities 
+for my child. 
+
+This epic is split into three user stories;
+
+1. As a parent I want to find a cat to match the party of my child's chosen theme. 
+
+2. As a user I want to choose from a cat/party that will fit my price range to 
+ensure that I can afford a party for my child.
+
+3. As a user I want to be able to order my selected party level and accessories
+in one easy checkout to save time. 
