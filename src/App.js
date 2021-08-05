@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
+import Checkout from "./components/Checkout"
 
-function App() {
+const App = () => {
+  const [inv, updateInv] = useState([
+    {
+      id: 1,
+      title: "Basic Cat",
+      desc: "An agitated mongrel cat found in the alleys behind Princess Party. Guaranteed* rabies free!",
+      price: 20,
+      isSelected: false
+    },
+    {
+      id: 2,
+      title: "+ Premium Cat Upgrade",
+      desc: "A cat from our deluxe range, sporting long, extra-soft fur and a playful attitude",
+      price: 15,
+      isSelected: false
+    },
+    {
+      id: 3,
+      title: "+ Cat Wrangler",
+      desc: "A trained human ",
+      price: 40,
+      isSelected: false
+    }
+  ])
+
+  const select = (id) => {
+    updateInv(inv.map((item) => item.id === id ? { ...item, isSelected: !item.isSelected} : item))
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Checkout inv={inv} select={select} />
+  )
 }
 
 export default App;
