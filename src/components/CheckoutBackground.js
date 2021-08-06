@@ -1,7 +1,6 @@
-
-function CheckoutBackground( {close } ) {
+function CheckoutBackground( { onClose } ) {
     return (
-        <div className='checkout-background' onClick={close}/>
+        <div className='checkout-background' onClick={onClose}/>
     )
 }
 
