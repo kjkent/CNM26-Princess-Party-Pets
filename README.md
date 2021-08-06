@@ -1,3 +1,10 @@
+# Team Members
+
+Felice Valentine - Art Director, API Controller, Mute Button Master
+Kris Kent - Purchase Logic, Master Git
+Michael Zwierzanski - Stylist, Morale Coordinator
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
