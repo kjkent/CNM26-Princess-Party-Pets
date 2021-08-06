@@ -4,7 +4,7 @@ const Tier = ({ item, select }) => {
     return (
         <div>
             <h3>
-                {item.title} - £{item.price} <FaShoppingBasket style={{ cursor: "pointer" }} onClick={() => select(item.id)} />
+                {item.title} - £{item.price} <FaShoppingBasket style={{ cursor: "pointer" }} onClick={() => select(item)} />
             </h3>
             <p>
                 {item.desc}
