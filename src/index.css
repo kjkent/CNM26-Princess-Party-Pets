@@ -104,7 +104,7 @@ nav{
 
 .wrapper-checkout {
    padding: 3em;
-  height: 500px;
+  height: 700px;
   width: 1100px;
   border-radius: 50px;
   background-color: #ecdcc9;
@@ -199,4 +199,21 @@ nav{
 /* .tier-cat-image:hover {
    transform:scale(5);
 } */
+/* ======================================= API component =========================== */
 
+
+.api-inner-container{
+max-width: 100%;
+max-height:100% ;
+
+
+}
+.imageOfCat{
+width: 150px;
+  height:150px ;
+}
+.des{
+   max-width: 100%;
+max-height:50% ;
+font-size: small;
+}

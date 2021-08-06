@@ -6,6 +6,7 @@ import CheckoutButton from "./CheckoutButton"
 import basicCat from '../images/Ell2.png';
 import premiumCat from '../images/premiumcat.png';
 import pepe from '../images/pepe.png';
+import API from "./API.js"
 
 const Checkout = ({ party }) => {
     const [inv, updateInv] = useState([
@@ -63,6 +64,7 @@ const Checkout = ({ party }) => {
             <div className="checkout-bottom">
                 <Tiers inv={inv} select={select} party={party}/>
                 <div className="container-api">
+                    <API />
                     <div className="container-image-api">
                         <img src="#" alt="" />
                     </div>
