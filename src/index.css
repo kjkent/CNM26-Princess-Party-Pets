@@ -71,6 +71,68 @@ nav{
    transform:scale(1.1) ;
 }
 
+/*================================= Title =================================== */
+
+.title-container {
+   width: 100%;
+   /* border: 1px solid black; */
+   border-radius: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+   background-color:#EAA9AC;
+    border:solid;
+    border-color: #453F3F;
+}
+
+.title-title {
+   font-family: 'Parisienne', cursive;
+}
+
+.sub-title {
+   font-family: 'poppins';
+}
+
+.basket-img-container {
+   height: 80px;
+   margin-top: 30px;
+}
+
+.basket-img {
+   height: fill;
+   
+}
+
+/* =========================== Hero ======================================== */
+
+.hero-container {
+   height: 300px;
+   display: flex;
+   background-color:#EDC679 ;
+   border-radius: 50px;
+   margin-bottom: 10px;
+   border:solid;
+    border-color: #453F3F;
+}
+
+.hero-para-container {
+   width: 50%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+.hero-para {
+   font-size: 30px;
+   margin-right: 40px;
+}
+
+.hero-img {
+   height: 200px;
+   margin-top: 50px;
+   margin-right: 40px;
+}
+
 
 /* ============================ Card Container ============================== */
 
@@ -78,6 +140,11 @@ nav{
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background-color: #0c0b0b;
+  border-radius: 50px;
+  border:solid;
+   border-color: #453F3F;
+   margin-bottom: 25px;
 }
 
 .Card {
@@ -199,4 +266,55 @@ nav{
 /* .tier-cat-image:hover {
    transform:scale(5);
 } */
+
+/*=================== Thank You ========================== */
+
+.thankyou-wrapper {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin: 0 auto;
+}
+
+.thanks {
+   width: 100%;
+   background-color: #453F3F;
+   height: 30vh;
+   margin-bottom: 15px;
+   border-radius: 50px;
+   border:solid;
+    border-color: #3e9cd3;
+}
+
+.thankyou-top {
+   background-color: #fad2e1;
+   margin-top: 20px;
+}
+
+.top-para-container {
+   display: flex;
+   width: 60%;
+   justify-content: space-evenly;
+   margin-top: 9vh;
+}
+
+.para-text,
+.para-item {
+   font-size: 25px;
+}
+
+.thankyou-middle {
+   background-color: #b482a1;
+}
+
+.pineapple {
+   height: 25vh;
+   margin: 2.5vh 0 0 2.5vh;
+}
+
+.thankyou-bottom {
+   background-color: #cac0ce;
+   
+}
 

@@ -1,10 +1,14 @@
 import { useState } from "react"
 import CardContainer from "./components/CardContainer"
+// import './App.css';
 import styled from 'styled-components';
 import woody from './images/Ellipse4.png';
 import snowWhite from './images/Ellipse1.png';
 import jackJack from './images/jj.png';
 import aurora from './images/Aurora.png';
+import Hero from "./components/Hero";
+import Title from "./components/Title";
+import ThankYou from "./components/ThankYou";
 
 const App = () => {
   // eslint-disable-next-line
@@ -47,8 +51,11 @@ const App = () => {
   return (
     <div>
       <Wrapper>
+        <Title />
+        <Hero />
         <CardContainer party={party}/>
       </Wrapper>
+      <ThankYou />
     </div>
   )
 }
@@ -56,7 +63,7 @@ const App = () => {
 const Wrapper = styled.div`
   width: 80%;
   margin: 0 auto;
-  border: 2px solid orange;
+  // border: 2px solid orange;
 `
 
 export default App;
