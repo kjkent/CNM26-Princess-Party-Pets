@@ -1,6 +1,6 @@
 const Total = ({ total }) => {
     return (
-        <div>
+        <div className="total">
             <h3>Total: £{total}</h3>
         </div>
     )

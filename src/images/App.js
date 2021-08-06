@@ -1,13 +1,44 @@
 import { useState } from "react"
+import Checkout from "./components/Checkout"
+import Card from "./components/Card"
 import CardContainer from "./components/CardContainer"
+import './App.css';
 import styled from 'styled-components';
-import woody from './images/Ellipse4.png';
-import snowWhite from './images/Ellipse1.png';
-import jackJack from './images/jj.png';
-import aurora from './images/Aurora.png';
+import woody from './Images/Ellipse4.png';
+import snowWhite from './Images/Ellipse1.png';
+import jackJack from './Images/jj.png';
+import aurora from './Images/Aurora.png';
+// import basicCat from './Images/Ell2.png';
+// import premiumCat from './Images/premiumcat.png';
+// import pepe from './Images/pepe.png';
 
 const App = () => {
-  // eslint-disable-next-line
+  // const [inv, updateInv] = useState([
+  //   {
+  //     id: 1,
+  //     title: "Basic Cat",
+  //     desc: "An agitated mongrel cat found in the alleys behind Princess Party. Guaranteed* rabies free!",
+  //     price: 20,
+  //     isSelected: false
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "+ Premium Cat Upgrade",
+  //     desc: "A cat from our deluxe range, sporting long, extra-soft fur and a playful attitude",
+  //     price: 15,
+  //     isSelected: false
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "+ Cat Wrangler",
+  //     desc: "A trained human ",
+  //     price: 40,
+  //     isSelected: false
+  //   }
+  // ])
+
+  
+
   const [party, setParty] = useState([
     {
       id: 1,
@@ -44,12 +75,15 @@ const App = () => {
 
   ])
 
+  // const select = (id) => {
+  //   updateInv(inv.map((item) => item.id === id ? { ...item, isSelected: !item.isSelected} : item))
+  // }
+
+
   return (
-    <div>
-      <Wrapper>
-        <CardContainer party={party}/>
-      </Wrapper>
-    </div>
+    <Wrapper>
+      <CardContainer party={party}/>
+    </Wrapper>
   )
 }
 
@@ -59,4 +93,7 @@ const Wrapper = styled.div`
   border: 2px solid orange;
 `
 
+
+
 export default App;
+{/* <Checkout inv={inv} select={select} /> */}
