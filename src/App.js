@@ -18,7 +18,8 @@ const App = () => {
       name: "Woody",
       imgSrc: woody,
       checkoutText: "Woody has to go and save his friends agian...unfortunately he can't takie his cat with him ! Good news for you ! Woody's cat has some free space in his calendar just to pop in for your birthday party!",
-      joke: "The question is... does he have a friend in you ?"
+      joke: "The question is... does he have a friend in you ?",
+      data: {}
     },
 
     {
