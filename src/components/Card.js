@@ -26,7 +26,7 @@ function Card ( { party, inv, select  } ) {
     //     </div>
     // )
 
-    const [ modalIsOpen, setModalIsOpen ] =useState(false);
+    const [ modalIsOpen, setModalIsOpen ] = useState(false);
 
     function openHandler() {
         setModalIsOpen(true)
@@ -40,7 +40,7 @@ function Card ( { party, inv, select  } ) {
     return (
         <div className="Card" >
             <img src={party.imgSrc} alt={party.name} className="card-img" onClick={openHandler}/>
-            { modalIsOpen ? <Checkout party={party}/> : null}
+            { modalIsOpen ? <Checkout party={party} inv={inv} select={select}/> : null}
             { modalIsOpen ? <CheckoutBackground onClick={closeHandler} /> : null}
         </div>
     )
