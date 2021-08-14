@@ -12,6 +12,10 @@ function ThankYou() {
             </div>
             <div className="thankyou-middle thanks">
                 <img src={pineapple} className="pineapple"/>
+                <div className="container-middle-para">
+                    <p className="middle-para">Thank you for shopping in Part Princess Pet !</p>
+                    <button className="middle-button">Home</button>
+                </div>
             </div>
             <div className="thankyou-bottom thanks">
             

@@ -323,6 +323,28 @@ nav{
 
 .thankyou-middle {
    background-color: #b482a1;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container-middle-para {
+   display: flex;
+   flex-direction: column;
+   margin-right: 5em;
+   margin-top: 3em;
+   align-items: center;
+}
+
+.middle-para {
+   font-size: 1.5rem;
+}
+
+.middle-button {
+   width: 20%;
+   border-radius: 50px;
+   border-color: #3e9cd3;
+   background-color: #cbabd8;
+   color: #152c3f;
 }
 
 .pineapple {
